@@ -15,7 +15,7 @@ export const SearchBar = ({
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const response = await fetch("http://localhost:3000/", {
+        const response = await fetch("https://plant-back-92cc8657666d.herokuapp.com/", {
           method: "GET",
         });
         const data = await response.json();
