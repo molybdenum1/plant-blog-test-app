@@ -1,4 +1,3 @@
-import React from 'react'
 import './Breadcrumbs.css'
 
 export const Breadcrumbs = () => {
