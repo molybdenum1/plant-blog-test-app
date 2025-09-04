@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 16px 0;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 68%;
+    margin: 0 auto;
+    
+}
+.navbar-left-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

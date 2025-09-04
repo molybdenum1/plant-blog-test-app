@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 16px;
+    font-size: 14px;
+    color: #91A0B6;
+    margin: 40px auto;
+    column-gap: 100px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+}
+
+.terms > *:not(:last-child)::after {
+    content: "|";
+    margin: 0 24px 0 24px;
+}
