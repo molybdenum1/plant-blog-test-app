@@ -34,3 +34,27 @@
     font-size: 16px;
     color: #78787A;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .post {
+        width: 98vw;
+        min-width: 0;
+    }
+    .post img {
+        width: 100%;
+        height: auto;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .post-title {
+        font-size: 18px;
+    }
+    .post-excerpt {
+        font-size: 14px;
+    }
+    .post-meta {
+        font-size: 14px;
+        gap: 4px;
+    }
+}

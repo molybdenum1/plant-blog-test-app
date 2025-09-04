@@ -79,3 +79,36 @@ hr {
     width: 97%;
     margin: 16px auto;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .main {
+        padding: 8px;
+    }
+    .posts-section {
+        width: 98%;
+        margin: 24px auto 32px auto;
+    }
+    .posts-list {
+        flex-direction: column;
+        column-count: 1;
+        row-gap: 16px;
+        column-gap: 0;
+    }
+    .top-post img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .top-post-title {
+        font-size: 18px;
+    }
+    .top-post-excerpx {
+        font-size: 14px;
+    }
+    .posts-list-header {
+        font-size: 14px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+}

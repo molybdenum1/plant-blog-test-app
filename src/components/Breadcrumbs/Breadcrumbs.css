@@ -22,3 +22,22 @@
     content: "/";
     margin: 0 4px 0 8px;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .breadcrumbs {
+        width: 98vw;
+        margin: 0 auto;
+    }
+    .breadcrums-container {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        gap: 4px;
+    }
+    .breadcrumb-element::after {
+        margin: 0 2px 0 4px;
+    }
+}

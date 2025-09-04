@@ -34,3 +34,37 @@
     color: #78787A;
     margin-bottom: 32px;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .hero {
+        width: 98vw;
+        margin: 24px auto 32px auto;
+    }
+    .hero-main {
+        flex-direction: column;
+        column-gap: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .hero-header {
+        font-size: 22px;
+        margin: 8px 0 8px 0;
+        text-align: center;
+    }
+    .hero-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .hero-date {
+        font-size: 12px;
+        text-align: center;
+    }
+    .hero-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
